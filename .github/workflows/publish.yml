@@ -30,4 +30,4 @@ jobs:
           printf '%s\n' "//registry.npmjs.org/:_authToken=${NPM_CONFIG_TOKEN}" >> "${HOME}/.npmrc"
           bun publish --access public --tolerate-republish
       - name: Publish to JSR
-        run: bunx --bun jsr publish --allow-slow-types --allow-dirty
+        run: bunx --bun jsr publish
