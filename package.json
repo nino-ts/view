@@ -46,6 +46,11 @@
             "types": "./src/jsx-runtime.ts",
             "import": "./src/jsx-runtime.ts",
             "default": "./src/jsx-runtime.ts"
+        },
+        "./jsx-dev-runtime": {
+            "types": "./src/jsx-runtime.ts",
+            "import": "./src/jsx-runtime.ts",
+            "default": "./src/jsx-runtime.ts"
         }
     },
     "types": "./index.ts",
