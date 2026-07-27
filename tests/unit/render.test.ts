@@ -2,7 +2,7 @@ import { describe, expect, test } from "bun:test";
 import { jsx, jsxs } from "../../src/jsx-runtime";
 import { render } from "../../src/render";
 
-function Welcome(props: { title: string }): string {
+function Welcome(props: { title: string }) {
     return jsx("main", { children: jsxs("h1", { children: ["Welcome to ", props.title] }) });
 }
 

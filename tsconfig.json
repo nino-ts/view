@@ -4,7 +4,7 @@
         "allowJs": false,
         "jsx": "react-jsx",
         "jsxImportSource": "@ninots/view",
-        "lib": ["esnext"],
+        "lib": ["esnext", "DOM"],
         "module": "esnext",
         "moduleDetection": "force",
         "moduleResolution": "bundler",
